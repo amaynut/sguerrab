@@ -1,0 +1,79 @@
+/* Feuille de style principale */
+
+/*        				Bannière 					****************************** */
+#logo {width:100%; text-align: center;}
+.photo {text-align:center;}
+
+/*					Ensemble de la page 				*/
+body {
+	background: #78ABE2; }
+
+	
+/*        Menu ********************* ********************************** Menu               */           
+#menu {
+	position: absolute; top: 285px; left: 0px;
+	width: 11.2%; height: auto; 
+	font: 16px Verdana, sans-serif;}
+#menu a {
+	display: block; 
+	text-align: center; 
+	font: bold 1em sans-serif; 
+   	padding: 5px 10px; 
+   	margin: 0 0 1px; 
+   	border-width: 0; 
+   	text-decoration: none; 
+	color: #FFC; 
+	background: #444; }
+#menu a:hover {
+	color: #000; 
+	background: #78ABE2;
+   	border-right: 5px double white;}
+/* ************************* annonces googles ********************** */
+#pub{
+	position: absolute; top: 500px; left: 0px; width: 10%;}
+#addthis { position:absolute; top: 10px; left: 0;}
+	
+	
+/* ***************** Contenu principal ********************************************* */
+#main {
+	float: right; 
+	width: 87.5%;
+   	color: #BAA; 
+   	background: #22232F; 
+   	font: 13px Verdana, sans-serif; padding: 10px; 
+   	border: solid 5px #444;}
+
+p { 
+	text-align: justify; 
+	margin: 0 1em 1em; 
+	text-indent: 3%;
+	line-height: 2em;}
+h1 {
+	text-align: center; 
+	margin: -9px -9px 0.5em; padding: 15px 0 5px; 
+	background: #333; color: #667; 
+	letter-spacing: 0.5em; 
+	text-transform: capitalize; 
+	font: bold 25px sans-serif; 
+	height: 38px; 
+	vertical-align: middle; 
+	width:auto;}
+
+
+ul { 
+	list-style: inside square; 
+	text-indent: 0;}
+
+p > img { 
+	border: solid 5px #444;} 
+p> img:hover {border-color:#8D8D00;}
+	/*                 					Pied de page 								***************************************** */
+#footer { 
+clear: both;
+}
+	.credit { 
+	color: #FFF; 
+	font-size: smaller;
+	padding-top:10px;
+	padding-bottom:0;
+	text-align:center;}

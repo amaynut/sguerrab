@@ -1,0 +1,69 @@
+@font-face {
+ font-family: dfdrspb;
+ src: url("../fonts/dfdrspb.OTF") /* police spéciale à charger */
+}
+    
+	
+	html, body {
+    background:#003A5B;
+    height: 100%;
+    height: 100%;
+}
+#banniere {
+    height:  auto;
+}
+#banniere, #banniere img  {
+      width: 100%;
+	  }
+
+#pied  {
+        height: 10%;
+}
+#pied, #pied img {
+    width:100%;
+}
+
+p {margin:0px;} 
+
+#photo { /* photo personnel de l'utilisateur'*/
+   padding-top:20px;
+   margin-left: 1em;
+   margin-bottom: 1em;
+   color: #FFF;
+}
+
+ /*mise en forme du corps de la page  */
+#corps { 
+	font-family:Verdana, Geneva, sans-serif;
+font-size:small;
+	min-height: 70%;
+	background: #BEDFF2;
+        background: -moz-linear-gradient(top, #4696BF 0%, #E4EFF5 100%);
+
+        background:  -webkit-gradient(linear, left top, left bottom, from(#4696BF), to(#E4EFF5));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4696BF', endColorstr='white');
+ }
+
+#menu { margin:0px; padding:0px;
+ 
+}
+
+
+h1 {
+	text-align:center;
+	color: #FFF;
+	font-family: dfdrspb;
+	font-weight: normal;
+	font-size: 3em;
+	text-shadow: 5px 5px 10px black; /* ombrage pour les navigateurs non IE*/
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#003A5B, Direction=100, Strength=5); /* ombrage pour IE */
+}
+
+h2 {
+    text-align:center;
+	color: #FFF;
+	font-family: dfdrspb, serif;
+	font-weight: normal;
+	font-size: 2em;
+	
+        }

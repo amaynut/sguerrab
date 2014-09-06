@@ -1,0 +1,239 @@
+// import Sass partial files
+@import "_mixins.scss";
+@import "_variables.scss";
+@import "_menu.scss";
+
+/* body */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    border-left: $blueCSS3 solid 0.3ex;
+    border-right: $blueCSS3 solid 0.3ex;
+    background:  URL("../img/sprinkles.png") repeat;
+}
+
+div#banner {
+    text-align: center; 
+    img {
+        width: 80%;
+        height: auto; 
+        padding-top: 0.5em;
+    }
+}
+
+article {
+    margin: 1em 4em;
+    p{
+        padding: 0 1em;
+        line-height: 1.5;
+        text-align: justify;
+        text-indent: 2em;
+    }
+    p:first-of-type:first-letter {
+        font-weight: bold;
+        font-size: 300%;
+        color: darken($blueCSS3, 20%)
+    }
+
+}
+h1 {
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+}
+h1, footer {
+    text-align: center;
+}
+footer {
+    background: $orangeHTML5;
+    height: 5em;
+    border-top: $blueCSS3 solid 0.3ex;
+    margin-top: 2em;
+    p, address {
+        vertical-align: middle;
+    }
+}
+
+/* Contact Form */
+
+
+#contactForm {
+    width: 50%;
+    margin: 0 auto;
+    input, textarea, select {
+        width: 80%;
+        margin: 0 10%;
+        display: block;
+        &:focus {
+            border: 0.2em solid $orangeHTML5;         
+        }      
+    }
+    label {
+        text-transform:capitalize;
+        font-style: italic;
+        font-weight: bolder;
+        margin-left: 10%;
+        color: $blueCSS3;
+    }
+    textarea {
+        height: 15em;          
+    }
+    #Send, #reset {
+        margin-top: 2ex;
+        width: 20%;
+        padding: 0.5em;   
+         background-color: $blueCSS3;
+         display: inline;
+        
+    } 
+    #Send {
+          &:hover {
+            background-color: green;
+        }
+       
+    }
+    #reset {
+         &:hover {
+            background-color: red;
+        
+        }
+    }
+    fieldset {
+        padding: 1em 2em;
+        border-top: $blueCSS3 solid 0.3ex;
+    }
+    legend {
+        color: $orangeHTML5;
+        padding: 0 1em;
+    }
+    border: $orangeHTML5 solid 0.3ex;
+    border-radius: 1ex;
+    padding: 0.5em 1em;
+}  // end contact form 
+// format the table about HTML5 timeline
+table {
+    caption {
+        font-size: 70%;
+    }
+
+    th {
+        background: lighten($orangeHTML5, 20%);
+        color: darken($blueCSS3, 20%);
+    }
+    td, th {
+        border: 3px $blueCSS3 ridge;
+        padding: 1ex;
+
+    }
+}
+table#HTML5TimeLine {
+    thead th:first-of-type{
+        border: none;
+        background: none;
+    }
+}
+table#CSS3MODULES {
+    td, th {
+        padding: 0.4ex;
+    }
+    th {
+        text-align: left;
+    }
+    td.rec {
+        background-color: green;
+    }
+    td.crec {
+        background-color: lighten(green, 30%);
+    }
+    td.lcwd {
+        background-color: lighten(red, 30%);
+    }
+    td.wd {
+        background-color: red
+    }
+}
+table#HTML5Elements 
+{
+    td, th:first-child {
+        padding: 0.4ex;
+        text-align: left;
+    }
+    img {
+        width: 16px;
+        height: 16px;
+    }
+    span{
+        font-weight: bold;
+        &:after {
+            content: url('../img/HTML5_Badge_32.png');
+        }
+    }
+}
+
+code {
+    color: darken($blueCSS3, 30%);
+}
+p.note {
+    color: red;
+}
+h1 {
+    color: darken($blueCSS3, 30%);
+}
+h2 {
+    color:  $blueCSS3;
+}
+h3 {
+    color: darken($orangeHTML5, 30%);
+}
+h4 {
+    color: $orangeHTML5;
+}
+table#CSS3properties {
+    margin: 0 auto;
+}
+table .property, table .HTML-Attributes {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: darken($orangeHTML5, 30%);;
+}
+
+p#transparent-bg {
+    background-color: rgb(200, 100, 20);
+    
+    &:hover {
+        background-color: rgba(200, 100, 20, 0.5);
+    }
+}
+ 
+p#multi-columns {
+    
+    /* standard version */
+    column-count: 3;
+    column-rule: $blueCSS3 inset 1ex;
+    column-gap: 4ex;
+    
+     /* webkit version */
+     -webkit-column-count: 3;
+     -webkit-column-rule: $blueCSS3 inset 1ex;
+    -webkit-column-gap: 4ex;
+    
+     /* firefox version */
+    -moz-column-count: 3;
+     -moz-column-rule: $blueCSS3 inset 1ex;
+    -moz-column-gap: 4ex;
+}
+
+/* comments form */
+#comments {
+    textarea, input, label {
+        display: block;
+    }
+    label {
+        color: $orangeHTML5;
+    }
+    input[type="text"], textarea {
+        margin-bottom: 2ex;
+    }
+    
+}

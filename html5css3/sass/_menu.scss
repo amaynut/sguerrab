@@ -1,0 +1,64 @@
+
+/* 
+    Created on : Feb 19, 2014, 7:38:49 PM
+    Author     : Tamurt
+*/
+
+/* style the menu ------------------------------------------------*/
+nav {
+    width: 90%;
+    margin: 0 auto;
+}
+#nav { 
+    overflow: hidden;
+     background:$orangeHTML5 ;
+}
+#nav ul {
+    overflow: visible !important;
+  
+}
+#nav > li  { 
+    float: left;
+    display: block;
+    width: auto !important;
+}
+#nav ul li{
+    display:block;
+    float:none;
+}
+.ui-menu ul li ul {
+    left:120px !important;
+    width:100%;
+     background-color: darken($orangeHTML5, 10%) !important;
+}
+#nav ul li ul {
+    width:auto;
+
+}
+
+#nav > li {
+    margin: 5px 5px !important;
+    padding: 0 0 !important;
+    background-color: darken($orangeHTML5, 10%);
+}
+.ui-menu > li > a { 
+    float: left;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    color: darken($blueCSS3, 30%);
+}
+
+.ui-menu .ui-menu-icon { 
+    margin-top: 0.3em !important;
+      background-color: red !important;
+}
+.ui-menu .ui-menu .ui-menu li { 
+    float: left;
+    display: block;
+}
+.ui-menu a:hover {
+    color: white;
+}
+
+/* end menu styling ----------------------------------------------------- */

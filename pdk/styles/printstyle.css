@@ -1,0 +1,26 @@
+﻿/* ceci est une Feuille de style pour l'impression  */
+/* remarque: Firefox version 2 ne supporte pas très bien cette  feuille de style impression*/ 
+/*notamment la proprièté "display"*/
+/* contrairement à IE 7 qui la supporte très bien */
+
+/* 			cacher les éléments inutiles à l'impression   */
+#logo {display:none ;}
+.menu {display:none;}
+.credit {display:none;}
+
+/*			simplifier les styles des titres */
+h1 {text-align:center ; font-size:14pt;}
+h2 {text-align:right ; font-size:12pt;}
+
+/*				simplifier  le style des paragraphes 			*/
+
+p {
+  line-height: 1.5;
+  font-family: "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;   
+  color:#000;
+  font-size: 10pt;
+}
+
+/*		éliminer la couleur, l'image de l'arrière plan 	et les bordures		*/
+* { background: none; border:none;}
+

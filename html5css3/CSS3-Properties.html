@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+           <meta name="viewport" content="width=device-width">
+        
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <meta name="author" content="SAID GUERRAB" />
+        <title>CSS3 Properties</title>
+        <!-- META TAGS for SEO -->
+        <meta name="robots" content="ALL" />
+        <meta name="keywords" content="HTML5, CSS3, HTML, CSS, web development, W3C, 
+              web standard, CSS Selectors, HTML5 elements, learn, demos, specification, browser" />
+        <meta name="description" content="This website gives the essential (only what you need to know)
+              about HTML5 and CSS3.">
+
+    <!-- favicon.ico and apple-touch-icon.png  -->
+          <link rel="shortcut icon" href="favicon.ico"  />
+          <link rel="apple-touch-icon" href="favicon.png" />
+
+        <!-- Include style sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- include javascript libraries -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/css3pie/PIE.js"></script>
+        <script src="js/vendor/html5shiv/html5shiv.js"></script>      
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header  id="top">
+                     <div id="banner" style="margin: 0 auto">
+                <a href="index.html" title="go to the home page">
+                <img id="logo" src="img/banner.png" alt="banner"/>
+                </a>
+            </div>
+           
+                 <nav>
+                <ul id="nav">
+                    <li>  <a href="index.html">Home</a></li>
+                    <li><a href="#">HTML5 Category</a>
+                        <ul>               
+                            <li><a href="html5_structure.html">Structure</a></li>
+                            <li><a href="html5-elements-and-attributes.html">Elements & attributes</a></li>
+                            <li>   <a href="html5_demos.html">HTML5 Demos</a></li>
+                        </ul>
+                    </li>                
+                    <li><a href="#">CSS3 Category</a>
+                        <ul>
+                            <li>   <a href="CSS3-Selectors.html">CSS3 Selectors</a></li>
+                            <li>   <a href="CSS3-Properties.html">CSS3 Properties</a></li>
+                            <li>   <a href="CSS3-Demos.html">CSS3 Demos</a></li>
+                        </ul>
+                    </li>             
+                    <li>   <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>CSS3 Properties  </h1>
+            <p>CSS3 updated, outdated some of CSS2.1 properties and added a lot of new properties to do some cool staff that any web designer 
+            would love to do with CSS only like: <code>transition, animation, multi-column</code> and so on. Hereafter a table for most important  properties
+            brought by CSS3:</p>
+            <table id="CSS3properties">
+                <caption></caption>
+                <thead>
+                    <tr>
+                    <th>Property</th>
+                    <th>Possible values</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="property">Rounded corner</td>           
+                    </tr>
+                     <tr>
+                        <td>The short-hand</td>           
+                         <td><code>border-radius:</code> </td>           
+                    </tr>
+                    <tr>
+                        <td>The individual border setting</td>
+                        <td><code>border-top-right-radius, <br> border-bottom-right-radius,<br> border-bottom-left-radius,<br> border-top-left-radius</code></td>
+                    </tr>
+                    <tr>
+                        <td >Possible values: </td>
+                        <td>Any unit of measure  <code>(px, pt, em, ex, %, ...)</code> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="property">Box-shadow</td>
+                    </tr>
+                    <tr>
+                        <td>For Webkit browsers (Safari, Opera, Chrome...)</td>
+                        <td><code>-webkit-box-shadow</code></td>
+                    </tr>
+                    <tr>
+                        <td>For Mozilla  (Firefox)</td>
+                        <td><code>-moz-box-shadow</code></td>
+                    </tr>
+                    <tr>
+                        <td>Standard (W3C)</td>
+                        <td><code>box-shadow</code></td>
+                    </tr>
+                    <tr>
+                        <td>Syntax</td>
+                        <td><code>x-offset, y-offset, blur, color</code></td>
+                    </tr>
+                    <tr>
+                        <td>Example</td>
+                        <td><code>5px 10px 3px #251542</code></td>
+                    </tr>
+                    <tr>
+                           <td colspan="2" class="property">Box-shadow</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Webkit</td>
+                        <td><code>-webkit-column-count<br>-webkit-column-gap</code></td>
+                    </tr>
+                    <tr>
+                        <td>Firefox</td>
+                        <td><code>-moz-column-count<br>-moz-column-gap</code></td>
+                    </tr>
+                    <tr>
+                      <td>Standard</td>
+                      <td><code>column-count<br>column-gap</code></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="property">Text shadow</td>
+                    </tr>
+                    <tr>
+                        <td>Standard Property</td>
+                        <td><code>text-shadow</code></td>
+                    </tr>
+                    <tr>
+                        <td>Syntax</td>
+                       <td><code>x-offset, y-offset, blur, color</code></td>
+                    </tr>
+                    <tr>
+                          <td>Example</td>
+                        <td><code>5px 1px 3px brown</code></td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft version </td>
+                        <td><code>filter:dropshadow()</code></td>
+                    </tr>
+                    <tr>
+                        <td>Syntax</td>
+                        <td><code>color, x-offset, y-offset</code></td>
+                    </tr>
+                    <tr>
+                        <td>Example</td>
+                        <td><code>filter:dropshadow(yellow, offx=5, offy=8)</code></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="property">Transparency</td>
+                    </tr>
+                    <tr>
+                        <td>syntax</td>
+                        <td><code>background-color: rgba( Red, Green, Blue, Alpha)</code><br>
+                            <code>color: rgba( Red, Green, Blue, Alpha)</code><br>
+                        Alpha defines the opacity by a value between 0 (full transparency) and 1 (full opacity)</td>
+                    </tr>
+                    <tr>
+                        <td>Example</td>
+                        <td><code>background-color: rgba(100, 25, 0, 0.3)</code></td>
+                    </tr>
+                    <tr>
+                       <td colspan="2" class="property">Import a font face</td>
+                    </tr>
+                    <tr>
+                        <td>Import declaration</td>
+                        <td><code>@font-face</code></td>
+                    </tr>
+                     <tr>
+                        <td>Syntax</td>
+                        <td><code>font-family: "myFontFamily" <br>src: url("myFontFile.woff") format("woff")</code></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="color:blue; font-weight: 800; border: orangered dashed 0.5ex; padding: 1ex; border-radius: 2ex;"> 
+                In the following days we are going to add new properties and values to the above table, because the list of new staff in CSS3 is long!</p>
+                 <form action="comment.php" method="post" id="comments">
+                <h2>Leave a comment</h2>
+                <label for="user">Your Name: </label>
+                <input type="text" name="userName" id="user">
+                <label for="comment">Your comment:</label>
+                <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+                <input type="submit" value="submit">
+
+
+            </form>
+        </article>
+           <p style="font-size: 80%; text-align: center"><a href="#top" style="font-size: 300%;" >&#8679;</a>
+            <br />Go back to top
+            </p>
+        <footer>
+            <p>Copyright&COPY;: Saïd GUERRAB, Vanier College Internet-I Project. 2014</p>
+            <address>821 Sainte-Croix,&Star; Montréal,&Star; QC H4L 3X9 &Star;(514) 744-7500</address>
+        </footer>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+          <script>
+            $("#nav").menu({position: {at: "left bottom"}});
+        </script>
+    </body>
+</html>

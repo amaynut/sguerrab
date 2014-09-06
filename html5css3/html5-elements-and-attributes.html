@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+       <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+           <meta name="viewport" content="width=device-width">
+        
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <meta name="author" content="SAID GUERRAB" />
+        <title>HTML5 Elements and Attributes</title>
+        <!-- META TAGS for SEO -->
+        <meta name="robots" content="ALL" />
+        <meta name="keywords" content="HTML5, CSS3, HTML, CSS, web development, W3C, 
+              web standard, CSS Selectors, HTML5 elements, learn, demos, specification, browser" />
+        <meta name="description" content="This website gives the essential (only what you need to know)
+              about HTML5 and CSS3.">
+
+    <!-- favicon.ico and apple-touch-icon.png  -->
+          <link rel="shortcut icon" href="favicon.ico"  />
+          <link rel="apple-touch-icon" href="favicon.png" />
+
+        <!-- Include style sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- include javascript libraries -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/css3pie/PIE.js"></script>
+        <script src="js/vendor/html5shiv/html5shiv.js"></script>      
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header id="top">
+          <div id="banner" style="margin: 0 auto">
+                <a href="index.html" title="go to the home page">
+                <img id="logo" src="img/banner.png" alt="banner"/>
+                </a>
+            </div>
+  <nav>
+                <ul id="nav">
+                    <li>  <a href="index.html">Home</a></li>
+                    <li><a href="#">HTML5 Category</a>
+                        <ul>               
+                            <li><a href="html5_structure.html">Structure</a></li>
+                            <li><a href="html5-elements-and-attributes.html">Elements & attributes</a></li>
+                            <li>   <a href="html5_demos.html">HTML5 Demos</a></li>
+                        </ul>
+                    </li>                
+                    <li><a href="#">CSS3 Category</a>
+                        <ul>
+                            <li>   <a href="CSS3-Selectors.html">CSS3 Selectors</a></li>
+                            <li>   <a href="CSS3-Properties.html">CSS3 Properties</a></li>
+                            <li>   <a href="CSS3-Demos.html">CSS3 Demos</a></li>
+                        </ul>
+                    </li>             
+                    <li>   <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header >
+        <article>
+            <h1>HTML5 elements and attributes </h1>
+            <section>
+                <h2>HTML5 Elements</h2>
+                <p>
+                    The new version of HTML came up a lot of new elements to structure the document from the largest elements to create for instance sections in the document
+                    to the smallest elements to markup, for instance, a small portion of a text. The HTML5 specification, which is not yes a final recommendation, divides those elements into various categories depending on their role 
+                    in the document. Hereafter a table which shows a few of them classified in their appropriate categories. </p>
+                <p>The  is used to indicate the elements was 
+                    introduced by HTML5.</p>
+                <table id="HTML5Elements">
+                    <caption>A list of HTML5 elements (source: <a href="http://www.w3.org/TR/html5/">W3C Specification</a>)</caption>
+                    <thead>
+                        <tr>
+                            <th>Categories</th>
+                            <th>Elements</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>The root element</th>
+                            <td><code>html</code></td>
+                        </tr>
+                        <tr>
+                            <th>Document metadata</th>
+                            <td><code>head, title, base, link, style</code></td>
+                        </tr>
+                        <tr>
+                            <th>Sections</th>
+                            <td><code>body, <span>article</span> , <span>section</span>, <span>nav</span> 
+                                    , <span>aside</span>, h1, h2, h3, h4, h5, <span>header</span>, <span>footer</span>  , address</code></td>
+                        </tr>
+                        <tr>
+                            <th>Grouping content</th>
+                            <td><code>p, hr, pre, blockquote, ol, ul, li, dl, dt, dd, <span>figure</span>, <span>figcaption</span>
+                                    , div, <span>main</span></code></td>
+                        </tr>
+                        <tr>
+                            <th>Text-level semantics</th>
+                            <td><code>a, em, strong, small, s, cite, g, dfn, abbr, <span>data</span>, <span>time</span>, code, var, samp, 
+                                    kbd, sub, sup, i, b, u, <span>mark</span>, <span>ruby</span>, <span>rb</span>, <span>rt</span>, <span>rtc</span>, <span>rp</span>, 
+                                    <span>bdi</span>, bdo, span, br, <span>wbr</span></code></td>
+                        <tr>
+                            <th>Edits</th>
+                            <td><code>ins, del</code></td>
+                        </tr>
+                        <tr>
+                            <th>Embedded content</th>
+                            <td><code>img, iframe, <span>embed</span>, object, param, <span>video</span>
+                                    , <span>audio</span>, source, <span>track</span>, map, area, <span>svg</span>
+                                    , <span>math</span></code></td>
+                        </tr>
+                        <tr>
+                            <th>Links</th>
+                            <td>Links are created by <code>a</code> and <code>area</code></td>
+                        </tr>
+                        <tr>
+                            <th>Tabular data</th>
+                            <td><code>table, caption, colgroup, col, tbody, thead, tfoot, tr, td, th</code></td>
+                        </tr>
+                        <tr>
+                            <th>Forms</th>
+                            <td><code>
+                                    form, label, input, button, select, <span>datalist</span>
+                                    , optgroup, option, textarea, <span>keygen</span>
+                                    , <span>output</span>, <span>progress</span> 
+                                    ,<span>meter</span>, fieldset, legend
+                                </code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Interactive elements</th>
+                            <td><code><span>details</span>
+                                    , <span>summary</span>, <span>dialog</span></code></td>
+                        </tr>
+                        <tr>
+                            <th>Scription</th>
+                            <td><code> script, noscript, <span>template</span>, <span>canvas</span></code></td>
+                        </tr>
+                    </tbody>            
+                </table>
+            </section>
+            <section>
+                <h2>HTML5 Attributes</h2>
+                <p>HTML5 attributes are divided in two categories: <em>global attributes</em> and <em>non global attributes.</em>
+                    Global attributes are commons for all HTML elements, in other words, they can be added to any HTML
+                    elements. On the other hand, the non-global attributes are specific to one or more elements. Hereafter
+                    a table which contains the main attribute used in HTML5 and classified by category:</p>
+                <table>
+                    <caption>A list of HTML5 attributes</caption>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Attributes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="2" class="HTML-Attributes">Global attributes</td></tr>
+                        <tr>
+                            <th>Core attributes</th>
+                            <td><code>accesskey, class, contenteditable, contexmenu, dir, draggable, dropzone, hidden, 
+                                    id, lang, spellcheck, style, tabindex, title, translate</code></td>
+                        </tr>
+                        <tr>
+                            <th>Event-Handler attributes</th>
+                            <td><code>onabort, onblur, oncanplay, oncanplaythrough, onchange, onclick, oncontextmenu, ondblclick, ondrag, 
+                                    ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop, ondurationchange, onemptied
+                                    , onended, onerror, onfocus, oninput, oninvalid, onkeydown, onkeypress, onkeyup, onload
+                                    , onloadeddata, onloadedmetadata, onloadstart, onmousedown, onmousemove, onmouseout 
+                                    , onmouseover, onmouseup, onmousewheel, onpause, onplay, onplaying, onprogress 
+                                    , onratechange, onreadystatechange, onreset, onscroll, onseeked, onseeking, onselect, 
+                                    onshow, onstalled, onsubmit, onsuspend, ontimeupdate, onvolumechange, onwaiting
+                                </code></td>
+                        </tr>
+                        <tr>
+                            <th>XML attributes</th>
+                            <td><code>xml:lang, xml:space, xml:base</code></td>
+                        </tr>
+                        <tr><td colspan="2" class="HTML-Attributes">Non-Global attributes</td></tr>
+
+                        <tr>
+                            <th>Form attributes</th>
+                            <td>for <code>&lt;form&gt;</code>: autocomplete, novalidate, for  <code>&lt;input&gt;</code>: 
+                            autocomplete, autofocus, form, formaction, formenctype, formmethod, formnovalidate, formtarget, height and width
+, list, min and max, multiple, pattern (regexp), placeholder, required, step, type, name, value</td>
+                        </tr>
+                        <tr>
+                            <th>Links attributes</th>
+                            <td><code>href, target, rel</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+                 <form action="comment.php" method="post" id="comments">
+                <h2>Leave a comment</h2>
+                <label for="user">Your Name: </label>
+                <input type="text" name="userName" id="user">
+                <label for="comment">Your comment:</label>
+                <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+                <input type="submit" value="submit">
+
+
+            </form>
+            </section>
+        </article>
+           <p style="font-size: 80%; text-align: center"><a href="#top" style="font-size: 300%;" >&#8679;</a>
+            <br />Go back to top
+            </p>
+        <footer>
+            <p>Copyright&COPY;: Saïd GUERRAB, Vanier College Internet-I Project. 2014</p>
+            <address>821 Sainte-Croix,&Star; Montréal,&Star; QC H4L 3X9 &Star;(514) 744-7500</address>
+
+        </footer>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+         <script>
+            $("#nav").menu({position: {at: "left bottom"}});
+        </script>
+    </body>
+</html>

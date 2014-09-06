@@ -1,0 +1,249 @@
+@import url(lightbox.css);#banner > img {
+		width:100%; 
+		height: 9em; 
+		border-bottom: solid 2px #329900
+}
+body{
+		margin: 0; 
+		padding: 0;
+		background: #71A8E1;
+}
+
+#centeredmenu {
+	   float:left;
+	   width:100%;
+	   background:#fff;
+	   border-bottom:4px solid #329900;
+	   overflow:hidden;
+	   position:relative;
+	   background: #71A8E1;
+	   margin: 0;
+}
+#centeredmenu ul {
+	   clear:left;
+	   float:left;
+	   list-style:none;
+	   margin:0;
+	   padding:0;
+	   position:relative;
+	   left:50%;
+	   text-align:center;
+	   
+}
+#centeredmenu ul li {
+	 display:block;
+	 float:left;
+	 list-style:none;
+	 margin:0;
+	 padding:0;
+	 position:relative;
+	 right:50%;
+}
+#centeredmenu ul li a {
+	  display:block;
+	  margin:0 0 0 1px;
+	  padding:3px 10px;
+	  color:#329900;
+	  text-decoration:none;
+	  line-height:1.3em;
+	  font-size: 150%;
+	  background-image: URL(../images/dialog2-blue.gif);
+}
+#centeredmenu ul li a:hover {
+	 color:#fff;
+	 background-image: URL(../images/dialog2-dark-blue.gif);
+}
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+	 color:#fff;
+	 font-weight:bold;
+	 background-image: URL(../images/dialog2-green.gif);
+	 cursor: auto;
+}
+
+/* mise en forme du menu fin */
+
+#colmask {
+	 width: 100%;
+	 position: relative;
+	 clear: both;
+	 float: left;
+	 
+	 
+}
+#colleft {
+		width: 100%;
+		float: left;
+		position: relative;
+		right: 85%;
+		
+}
+#col1 {
+	 width: 77%;
+	 float: left;
+	 padding: 5px;
+	 border-left: solid #329900 2px;
+	 padding-bottom: 5em;
+	 overflow: hidden;
+	 position: relative;
+	 left: 105%;	 
+	 color: black;
+	 font-weight: bold;
+	 background: url("../images/home/test6.jpg");
+	 -moz-border-radius:40px;
+		-webkit-border-radius:40px;
+		behavior:url(border-radius.htc);
+		border: solid green 3px;
+	 
+}
+body#homePage {background: green url("../images/home/mountainpeakbg.jpg");}
+body#homePage #colmask {
+	 -webkit-border-image: url("../images/home/mountainpeak.jpg") 10% stretch stretch; 
+	 -moz-border-image: url("../images/home/mountainpeak.jpg") 10% stretch stretch; 
+	 border-image: url("../images/home/mountainpeak.jpg") 10% stretch stretch;
+	 background: url("../images/home/mountainpeak.jpg") no-repeat;
+}
+body#mountainPage #colmask 
+{
+	 -webkit-border-image: url("../images/mountain/snowscape.jpg") 10% stretch stretch; 
+	 -moz-border-image: url("../images/mountain/snowscape.jpg") 10% stretch stretch; 
+	 border-image: url("../images/mountain/snowscape.jpg") 10% stretch stretch;
+	 background: url("../images/mountain/snowscape.jpg") no-repeat ;
+ }
+ body#seaPage #colmask 
+{
+-webkit-border-image: url("../images/sea/weterjpg") 10% stretch stretch; 
+ -moz-border-image: url("../images/sea/water.jpg") 10% stretch stretch; 
+ border-image: url("../images/sea/water.jpg") 10% stretch stretch;
+ background: url("../images/sea/water.jpg") ;
+ }
+ body#sunPage #colmask 
+{
+-webkit-border-image: url("../images/sun/oldredbarn.jpg") 10% stretch stretch; 
+ -moz-border-image: url("../images/sun/oldredbarn.jpg") 10% stretch stretch; 
+ border-image: url("../images/sun/oldredbarn.jpg") 10% stretch stretch;
+ background: url("../images/sun/oldredbarn.jpg") ;
+ color: white;
+ }
+ body#mountainPage {background: url("../images/mountain/snowscapebg.jpg") }
+#col2 {
+	 width: 15%;
+	 float: left;
+	 overflow: hidden;
+	 padding: 30px 10px 30px 10px; 
+	 position: relative;
+	 left: 10%; 
+}
+
+ #footer {
+	 -webkit-border-image: url("../images/dialog2-green.gif") 1  stretch stretch; 
+	 -moz-border-image: url("../images/dialog2-green.gif") 1 stretch stretch; 
+      border-image: url("../images/dialog2-green.gif") 1 stretch stretch;
+	 border-top: solid #329900 2px;
+	 clear:both;
+	 text-align:center;
+	 font-size: 80%;
+	 background: green;
+	 float: left;
+	 width: 100%;
+	 font-style: oblique;
+	 
+ }
+ #footer a {color: white;}
+
+ 
+ #col1 p, #col1 li {
+	 text-align: justify;
+	 line-height: 150%;
+	 text-indent: 3%;
+	 margin-left: 2em;
+	 margin-right: 2em;
+	 font-size: 110%;
+ }
+
+ .photo {
+	 text-align: center;
+ }
+ h1 {
+	 text-align: center;
+	 font-size: 180%;
+	 letter-spacing: 0.3em;
+	 font-variant: small-caps;
+	 color: green;
+ }
+ h2 {
+		margin-left: 1em;
+		font-size: 130%;
+		text-decoration: underline;
+		color: blue;
+		
+ 
+ }
+ #col1 p:first-letter {
+	 font-size: 130%;
+	 
+ }
+ #col1 li {
+	 list-style-image: URL(../images/green_marker.gif);
+	 text-align: justify;
+	 line-height: 150%;
+	 margin-left: 2em;
+	 margin-right: 2em;
+	 font-size: 110%;
+	 list-style-position: outside;
+	 
+ }
+img#addthis {
+width: 125px ;
+border:  0px;
+height: 16px;
+padding-bottom: 1em;
+}
+
+/* mise en forme du formulaire de contact d�but *************  */
+	
+	div#formContact label {
+		display: block;
+		font-weight: bold;
+		font-size: 150%;
+		position: relative;
+		left:  30%;
+		letter-spacing: 0.2em;
+	}
+	
+	div#formContact input {
+		display:  block;
+		position:  relative;
+		left: 30%
+	}
+	div#formContact input[type="text"], textarea, select
+	{
+		width:  40%;
+		font-size: 130%;
+		position: relative;
+		left:  30%;
+	}
+	div#formContact
+	{
+		
+	 width:  60%;
+	 position: relative;
+	 top: 10%;
+	 left: 20%;
+	 
+	 
+	}
+	div#formContact input:focus, textarea:focus, option:focus, select:focus {
+		background-color: #BCDCAC;
+	}
+	div#formContact * 
+	{
+		margin-bottom: 0.6em;
+	}
+	div#formContact input[type="submit"]
+	{
+		width: 20%;
+		font-size: 110%;
+	}
+	div#formContact fieldset {background: url("http://www.progecom.com/evenement_fichiers/contact_noe00.png") repeat-y;}
+	

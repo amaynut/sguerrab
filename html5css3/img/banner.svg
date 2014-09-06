@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" inkscape:version="0.48.4 r9939" sodipodi:docname="banner.svg" inkscape:export-filename="F:\Vaniers Session 2\Website_Assignment\HTML5CSS3_Project\public_html\img\banner.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1039.215px"
+	 height="180.715px" viewBox="0 0 1039.215 180.715" enable-background="new 0 0 1039.215 180.715" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="90.3574" x2="1039.2148" y2="90.3574">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#404040;stop-opacity:0.6"/>
+</linearGradient>
+<rect fill="url(#SVGID_1_)" stroke="#4752A3" stroke-width="6" stroke-miterlimit="10" width="1039.215" height="180.715"/>
+<sodipodi:namedview  showguides="false" fit-margin-top="0" fit-margin-left="0" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:zoom="0.7" inkscape:cx="351.40595" showgrid="true" inkscape:cy="-38.498337" id="base" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:snap-global="false" inkscape:window-width="1366" inkscape:window-height="705" inkscape:window-x="-8" inkscape:window-y="-8" fit-margin-right="0" inkscape:window-maximized="1" fit-margin-bottom="0">
+	
+		<inkscape:grid  type="xygrid" empspacing="5" visible="true" enabled="true" originy="-393.92861px" originx="-9.7142744px" id="grid3022" snapvisiblegridlinesonly="true">
+		</inkscape:grid>
+</sodipodi:namedview>
+<g id="layer1" transform="translate(-9.7142744,-477.7193)" inkscape:label="Layer 1" inkscape:groupmode="layer">
+	<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 133.0478 515.9332)" font-family="'MyriadPro-Regular'" font-size="17.9993">{</text>
+	
+		<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 138.1449 515.5748)" fill="#2C3C97" font-family="'MyriadPro-Regular'" font-size="17.9993">CSS</text>
+	
+		<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 166.2631 513.5977)" fill="#D48200" font-family="'MyriadPro-Regular'" font-size="17.9993">3</text>
+	<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 175.4731 512.9517)" font-family="'MyriadPro-Regular'" font-size="17.9993">} </text>
+	
+		<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 184.3793 512.3257)" font-family="'MyriadPro-Regular'" font-size="17.9993" letter-spacing="15"> </text>
+	<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 204.8666 510.8858)" font-family="'MyriadPro-Regular'" font-size="17.9993">&lt;</text>
+	
+		<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 215.5678 510.1329)" fill="#374BA0" font-family="'MyriadPro-Regular'" font-size="17.9993">HTML</text>
+	
+		<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 259.1078 507.0743)" fill="#D49500" font-family="'MyriadPro-Regular'" font-size="17.9993">5</text>
+	<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 268.3188 506.4258)" font-family="'MyriadPro-Regular'" font-size="17.9993">&gt; </text>
+	<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 134.561 537.4791)" enable-background="new    "><tspan x="0" y="0" fill="#4562AD" font-family="'MyriadPro-Regular'" font-size="17.9993">section</tspan><tspan x="54.249" y="0" fill="#0074FF" font-family="'MyriadPro-Regular'" font-size="17.9993"> </tspan><tspan x="58.065" y="0" font-family="'MyriadPro-Regular'" font-size="17.9993">{border-radius: 2em;}</tspan></text>
+	
+		<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 136.0761 559.025)" fill="#4562AD" font-family="'MyriadPro-Regular'" font-size="17.9993">footer</text>
+	<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 181.8417 555.8087)" font-family="'MyriadPro-Regular'" font-size="17.9993"> {text-shadow: </text>
+	<text transform="matrix(0.9975 -0.0701 0.0701 0.9975 144.0942 603.9879)" enable-background="new    "><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="18">&lt;</tspan><tspan x="10.728" y="0" fill="#4562AD" font-family="'MyriadPro-Regular'" font-size="18">time</tspan><tspan x="44.927" y="0" font-family="'MyriadPro-Regular'" font-size="18"> </tspan><tspan x="48.743" y="0" fill="#53AD45" font-family="'MyriadPro-Regular'" font-size="18">title</tspan><tspan x="78.137" y="0" font-family="'MyriadPro-Regular'" font-size="18">=”2014-02-16”&gt; Sunday, February 16, 2014&lt;/</tspan><tspan x="415.233" y="0.001" fill="#4562AD" font-family="'MyriadPro-Regular'" font-size="18">time</tspan><tspan x="449.433" y="0" font-family="'MyriadPro-Regular'" font-size="18">&gt;</tspan></text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 629.0795 499.9332)" enable-background="new    "><tspan x="0" y="0" fill="#D400BA" font-family="'MyriadPro-Regular'" font-size="18">@font-face</tspan><tspan x="80.891" y="0.001" fill="#B0EA7F" font-family="'MyriadPro-Regular'" font-size="18"> {</tspan></text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 627.3842 521.4664)" font-family="'MyriadPro-Regular'" font-size="18"> </text>
+	
+		<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 631.1879 521.7662)" fill="#908FB3" font-family="'MyriadPro-Regular'" font-size="18"> </text>
+	
+		<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 634.9916 522.066)" fill="#36479D" font-family="'MyriadPro-Regular'" font-size="18">font-family</text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 717.228 528.5416)" font-family="'MyriadPro-Regular'" font-size="18">:</text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 720.9418 528.8336)" font-family="'MyriadPro-Regular'" font-size="18"> &quot;Serif&quot;;</text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 625.6889 542.9996)" font-family="'MyriadPro-Regular'" font-size="18">  </text>
+	
+		<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 633.2963 543.5972)" fill="#233E99" font-family="'MyriadPro-Regular'" font-size="18">src</text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 654.308 545.2535)" enable-background="new    "><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="18">: </tspan><tspan x="7.542" y="0" fill="#E90029" font-family="'MyriadPro-Regular'" font-size="18">url</tspan><tspan x="27.593" y="0" font-family="'MyriadPro-Regular'" font-size="18">(&quot;Gabriela.eot?&quot;) </tspan><tspan x="152.242" y="0" fill="#E90029" font-family="'MyriadPro-Regular'" font-size="18">format</tspan><tspan x="202.91" y="0" font-family="'MyriadPro-Regular'" font-size="18">(&quot;eot&quot;),</tspan></text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 623.9926 564.5318)" enable-background="new    "><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="18"> </tspan><tspan x="3.816" y="0" fill="#FF001D" font-family="'MyriadPro-Regular'" font-size="18"> url</tspan><tspan x="27.684" y="0.001" font-family="'MyriadPro-Regular'" font-size="18">(&quot;Gabriela.woff&quot;) </tspan><tspan x="153.788" y="0" fill="#E90029" font-family="'MyriadPro-Regular'" font-size="18">format</tspan><tspan x="204.459" y="0" font-family="'MyriadPro-Regular'" font-size="18">(&quot;woff&quot;),</tspan></text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 622.2973 586.067)" enable-background="new    "><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="18">  </tspan><tspan x="7.632" y="0" fill="#D40025" font-family="'MyriadPro-Regular'" font-size="18">url</tspan><tspan x="27.684" y="0.001" font-family="'MyriadPro-Regular'" font-size="18">(&quot;Gabriela.ttf&quot;) </tspan><tspan x="137.337" y="0" fill="#E90029" font-family="'MyriadPro-Regular'" font-size="18">format</tspan><tspan x="188.006" y="0" font-family="'MyriadPro-Regular'" font-size="18">(&quot;truetype&quot;);</tspan></text>
+	<text transform="matrix(0.9969 0.0785 -0.0785 0.9969 620.601 607.6002)" font-family="'MyriadPro-Regular'" font-size="18">}</text>
+	<text transform="matrix(1 0 0 1 126.8217 643.2584)" fill="#4562AD" font-family="'CooperBlackStd'" font-size="24">Everything you need to know about the cool </text>
+	<text transform="matrix(1 0 0 1 711.9584 643.2584)" fill="#2F3E99" font-family="'CooperBlackStd'" font-size="24">HTML5</text>
+	<text transform="matrix(1 0 0 1 803.2289 643.2584)" font-family="'CooperBlackStd'" font-size="24"> and </text>
+	<text transform="matrix(1 0 0 1 865.9643 643.2584)" fill="#AC5826" font-family="'CooperBlackStd'" font-size="24">CSS3</text>
+	<text transform="matrix(1 0 0 1 340.8217 499.9332)" enable-background="new    "><tspan x="0" y="0" font-family="'TrebuchetMS'" font-size="14">&lt;</tspan><tspan x="7.342" y="0" fill="#4562AD" font-family="'TrebuchetMS'" font-size="14">video</tspan><tspan x="41.139" y="0" font-family="'TrebuchetMS'" font-size="14"> </tspan><tspan x="45.356" y="0" fill="#53AD45" font-family="'TrebuchetMS'" font-size="14">width</tspan><tspan x="80.767" y="0" font-family="'TrebuchetMS'" font-size="14">=&quot;320&quot; </tspan><tspan x="123.443" y="0" fill="#53AD45" font-family="'TrebuchetMS'" font-size="14">height</tspan><tspan x="162.948" y="0" font-family="'TrebuchetMS'" font-size="14">=&quot;240&quot; </tspan><tspan x="205.625" y="0" fill="#53AD45" font-family="'TrebuchetMS'" font-size="14">controls</tspan><tspan x="256.02" y="0" font-family="'TrebuchetMS'" font-size="14">&gt;</tspan></text>
+	<text transform="matrix(1 0 0 1 340.8217 516.733)" fill="#4562AD" font-family="'TrebuchetMS'" font-size="14">  &lt;source src=&quot;movie.mp4&quot; type=&quot;video/mp4&quot;&gt;</text>
+	<text transform="matrix(1 0 0 1 340.8217 533.5338)" enable-background="new    "><tspan x="0" y="0" font-family="'TrebuchetMS'" font-size="14">  &lt;</tspan><tspan x="15.777" y="0" fill="#4562AD" font-family="'TrebuchetMS'" font-size="14">source</tspan><tspan x="56.615" y="0" font-family="'TrebuchetMS'" font-size="14"> </tspan><tspan x="60.833" y="0" fill="#53AD45" font-family="'TrebuchetMS'" font-size="14">src</tspan><tspan x="78.873" y="0" font-family="'TrebuchetMS'" font-size="14">=&quot;movie.ogg&quot; </tspan><tspan x="163.851" y="0" fill="#53AD45" font-family="'TrebuchetMS'" font-size="14">type</tspan><tspan x="191.741" y="0" font-family="'TrebuchetMS'" font-size="14">=&quot;video/ogg&quot;&gt;</tspan></text>
+	<text transform="matrix(1 0 0 1 340.8217 550.3336)" fill="#4562AD" font-family="'TrebuchetMS'" font-size="14">&lt;/video&gt;</text>
+	<g id="Page_1">
+		<g id="Layer_1_1_">
+			<path id="Shape" fill="#131313" d="M1014.375,492.737h-9.559l9.939,10.785v5.133h-20.474v-6.01h9.938l-9.938-10.785v-5.141
+				h20.092L1014.375,492.737L1014.375,492.737z M990.228,492.737h-9.558l9.938,10.785v5.133h-20.472v-6.01h9.938l-9.938-10.785
+				v-5.141h20.091L990.228,492.737L990.228,492.737z M966.316,492.981h-10.313v9.412h10.313v6.262h-17.642v-21.936h17.642V492.981
+				L966.316,492.981z"/>
+			<path id="Shape_1_" fill="#1572B6" d="M934.622,636.206l-10.48-117.537h115.147L1028.8,636.185l-47.154,13.071L934.622,636.206z"
+				/>
+			<path id="Shape_2_" fill="#33A9DC" d="M981.715,639.267l38.103-10.563l8.965-100.423h-47.066L981.715,639.267L981.715,639.267z"
+				/>
+			<g id="Group" transform="translate(55.000000, 142.000000)">
+				<path id="Shape_3_" fill="#FFFFFF" d="M926.715,428.863h19.076l1.315-14.761h-20.393v-14.416h0.05h36.098l-0.347,3.868
+					l-3.542,39.723h-32.259L926.715,428.863L926.715,428.863z"/>
+				<path id="Shape_4_" fill="#EBEBEB" d="M926.801,466.299l-0.063,0.019l-16.054-4.336l-1.026-11.496h-7.802h-6.668l2.019,22.634
+					l29.528,8.197l0.066-0.02V466.299L926.801,466.299z"/>
+				<path id="Shape_5_" fill="#FFFFFF" d="M944.565,442.667l-1.735,19.306l-16.076,4.34v14.997l29.552-8.189l0.217-2.436
+					l2.507-28.018H944.565z"/>
+				<path id="Shape_6_" fill="#EBEBEB" d="M926.765,399.685v8.953v5.427v0.036h-34.773h-0.046l-0.289-3.24L891,403.553l-0.346-3.868
+					H926.765z"/>
+				<path id="Shape_7_" fill="#EBEBEB" d="M926.715,428.865v8.953v5.427v0.035H910.91h-0.046l-0.29-3.238l-0.655-7.31l-0.346-3.867
+					H926.715z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<polygon fill="#E44D26" points="22.416,149.045 12.694,40.001 119.521,40.001 109.789,149.027 66.042,161.156 	"/>
+	<polygon fill="#F16529" points="66.107,151.885 101.457,142.086 109.774,48.917 66.107,48.917 	"/>
+	<polygon fill="#EBEBEB" points="66.107,89.36 48.411,89.36 47.188,75.665 66.107,75.665 66.107,62.292 66.061,62.292 
+		32.573,62.292 32.892,65.879 36.179,102.734 66.107,102.734 	"/>
+	<polygon fill="#EBEBEB" points="66.107,124.094 66.048,124.109 51.154,120.086 50.202,109.42 42.964,109.42 36.777,109.42 
+		38.651,130.42 66.045,138.023 66.107,138.008 	"/>
+	<path d="M22.632,10.369h6.797v6.714h6.217v-6.714h6.797v20.333h-6.797v-6.809h-6.217v6.809h-6.796L22.632,10.369L22.632,10.369z"/>
+	<path d="M51.38,17.111h-5.983v-6.742h18.766v6.742h-5.985v13.591H51.38V17.111L51.38,17.111z"/>
+	<path d="M67.141,10.369h7.087l4.359,7.145l4.354-7.145h7.09v20.333h-6.769V20.624l-4.676,7.229H78.47l-4.679-7.229v10.078h-6.65
+		V10.369z"/>
+	<path d="M93.414,10.369h6.799v13.612h9.558v6.721H93.414V10.369z"/>
+	<polygon fill="#FFFFFF" points="66.061,89.36 66.061,102.734 82.529,102.734 80.977,120.078 66.061,124.104 66.061,138.018 
+		93.478,130.42 93.679,128.16 96.822,92.951 97.148,89.36 93.544,89.36 	"/>
+	<polygon fill="#FFFFFF" points="66.061,62.292 66.061,70.597 66.061,75.632 66.061,75.665 98.322,75.665 98.322,75.665 
+		98.365,75.665 98.633,72.659 99.243,65.879 99.562,62.292 	"/>
+</g>
+</svg>

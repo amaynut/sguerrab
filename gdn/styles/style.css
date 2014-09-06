@@ -1,0 +1,152 @@
+@charset "iso-8859-1";
+/* CSS Document */
+@font-face {
+ font-family: dfdrspb;
+ src: url("../fonts/dfdrspb.otf") /* police spéciale à charger */
+}
+
+html, body {
+    background:#003A5B;
+    height: 100%;
+    height: 100%;
+}
+/* mise en forme de l'en-tête et du pied de page */
+#banniere {
+    height: auto;
+	
+}
+#banniere, #banniere img  {
+      width: 100%;
+	  max-height: 127px;
+	  }
+p {margin-top:0px;} 
+
+h3 {margin-top:0px;} 
+
+#pied  {
+        height: 10%;
+}
+#pied, #pied img {
+    width:100%;
+} 
+ /*mise en forme du corps de la page  */
+
+ #photo img { /* photo personnel de l'utilisateur'*/
+   margin-left: 2em;
+   border:1px solid #70f9f4;
+   color: #FFF;
+}
+
+#photo { padding-top:20px; /* photo personnel de l'utilisateur'*/
+   margin-left: 1em;
+   
+   color: #FFF;
+}
+#corps { font-family:Verdana, Geneva, sans-serif;
+font-size:small;
+	padding-top:0em;
+	min-height: 70%;
+	background: #BEDFF2; /* pour les navigateurs ne supportant pas les dégradés */
+    background: -moz-linear-gradient(top, #4696BF 0%, #E4EFF5 100%); /* dégradé pour les nivagateurs basés sur mozilla */
+	
+  background:  -webkit-gradient(linear, left top, left bottom, from(#4696BF), to(#E4EFF5)); /* dégradé pour les nivagateur basés sur webkit (Google Chrome en Safiri notamment) */
+  filter: progid:DXImageTransform.Microsoft.Gradient(
+        gradientType=0,startColorStr=#4696BF,
+        endColorStr=white); /*degradé pour IE */
+}
+#globe {position:absolute; right:0em; top:5em; float:left; z-index:2; text-align:right; width: 13em; height:auto;} /* image qui s'ajoute au degradé */
+	
+	
+	label { display: block
+	}
+    label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+    .submit { margin-left: 12em; }
+    em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+    span {color: red;}
+	select { 
+	min-width:200px;
+	max-width:200px;}
+	input {
+		
+	min-width:200px;
+	max-width:200px;}
+    pre {font-size: 80%; font-family: Verdana, Geneva, sans-serif }	
+	
+	h1 { margin-top:0px;
+	 
+	text-align:center;
+	color: #FFF;
+	font-family: dfdrspb;
+	font-weight: normal;
+	font-size: 3em;
+	text-shadow: 5px 5px 10px black; /* ombrage pour les navigateurs non IE*/
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#003A5B, Direction=100, Strength=5); /* ombrage pour IE */
+}
+        h2 {
+            text-align:center;
+	color: #FFF;
+	font-family: dfdrspb, serif;
+	font-weight: normal;
+	font-size: 2em;
+        }
+	
+	/* mise en forme du tableau */
+	table * {
+	text-align: left;
+	padding: 10px;
+	border: 0px none ;   
+	}
+	table {
+	border-collapse: collapse;
+	margin-left: auto;
+        margin-right: auto;
+	padding-bottom:0em;
+	}
+	table th {
+	color:#003A5B;
+	font-family: dfdrspb;
+	font-size: 16px;
+}
+         table td, table th  {border: #b59345 solid thin;}
+         th {background: #F5F4F4;}
+/* boutons de modification des information personnelles*/
+#bouton_modif {
+    text-align: center;
+}
+
+/* mise en forme du formulaire d'autentification */
+
+  form {
+	  width:70%;
+	  margin-top: 1em;
+	  margin-bottom: 1em;
+	  margin-left:auto;
+	  margin-right:auto;
+	  padding-top:1em;
+	  padding-bottom:1em;
+  }
+  input, label, select {
+	  margin-bottom:0.5em;
+	  display:block; 
+	  width:30%;
+	  margin-left:30%;
+	  color:#003A5B;
+	  font-weight:bolder;
+	  font-family:dfdrspb}
+   input{color:#003A5B;}
+   input:focus {background-color:#C7E0EC;}
+
+/* ce bout de code sert à mettre en forme les messages de validation des différents formulaires de l'application */
+    div.message {margin-left: auto;
+         margin-right: auto;
+         font-size: 150%;
+         margin-top: 2em;
+         padding: 0.5em;
+         width: 60%;
+    }
+    div.succes {
+         border: 2px dashed green;
+}
+  div.echec {
+         border: 2px dashed red;
+}

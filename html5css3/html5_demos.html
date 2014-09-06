@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+           <meta name="viewport" content="width=device-width">
+        
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <meta name="author" content="SAID GUERRAB" />
+        <title>HTML5 Demos</title>
+        <!-- META TAGS for SEO -->
+        <meta name="robots" content="ALL" />
+        <meta name="keywords" content="HTML5, CSS3, HTML, CSS, web development, W3C, 
+              web standard, CSS Selectors, HTML5 elements, learn, demos, specification, browser" />
+        <meta name="description" content="This website gives the essential (only what you need to know)
+              about HTML5 and CSS3.">
+
+    <!-- favicon.ico and apple-touch-icon.png  -->
+          <link rel="shortcut icon" href="favicon.ico"  />
+          <link rel="apple-touch-icon" href="favicon.png" />
+
+        <!-- Include style sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- include javascript libraries -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/css3pie/PIE.js"></script>
+        <script src="js/vendor/html5shiv/html5shiv.js"></script>      
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header id="top">
+           <div id="banner" style="margin: 0 auto">
+                <a href="index.html" title="go to the home page">
+                <img id="logo" src="img/banner.png" alt="banner"/>
+                </a>
+            </div>
+
+         <nav>
+                <ul id="nav">
+                    <li>  <a href="index.html">Home</a></li>
+                    <li><a href="#">HTML5 Category</a>
+                        <ul>               
+                            <li><a href="html5_structure.html">Structure</a></li>
+                            <li><a href="html5-elements-and-attributes.html">Elements & attributes</a></li>
+                            <li>   <a href="html5_demos.html">HTML5 Demos</a></li>
+                        </ul>
+                    </li>                
+                    <li><a href="#">CSS3 Category</a>
+                        <ul>
+                            <li>   <a href="CSS3-Selectors.html">CSS3 Selectors</a></li>
+                            <li>   <a href="CSS3-Properties.html">CSS3 Properties</a></li>
+                            <li>   <a href="CSS3-Demos.html">CSS3 Demos</a></li>
+                        </ul>
+                    </li>             
+                    <li>   <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>HTML demos</h1>
+            <p>We can do amazing things with HTML5, especially when it's associated with the power of CSS3. 
+                A lot of things what were not thought possible with HTML before. For instance we can make an online presentation (a slide-show)
+                without any plugin. This is what we can see in the following link: <a href="http://www.htmlfivecan.com/#1">
+                    HTML5 Can website</a>  </p>
+            <p>In this page we are going to show some demos. The page will add some demos as the time goes. We will try to keep it at least 
+                monthly demos to showcase the powerfulness of HTML5 combined with CSS3</p>
+
+            <h2>Audio and video integration: </h2>
+            <p>HTML5 came with new elements <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> to give
+                us the ability to include a video or a sound track with flash or any other plugin.</p>
+            <h3>Insert a video: </h3>
+            <p>The following code</p>
+            <pre><code>
+            &lt;video width="320" height="240" controls&gt;
+                &lt;source src="video/Nature-Canada.mp4" type="video/mp4"&gt;
+                Your browser does not support the video tag.
+            &lt;/video&gt;</code>
+
+            </pre>
+            <p>Will output the following video (the video can be controlled by the user: pause, play, full-screen, ...):  </p>
+            <video width="320" height="240" controls>
+                <source src="video/Nature-Canada.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class='note'>Note: To make the video works in all modern browsers, including Firefox, the most common format is <code>.mp4</code></p>
+            <h3>Insert a sound track</h3>
+            <p> The following code will insert a beautiful song from an Algerian singer <strong>Matoub Lounes</strong>: </p>
+            <pre>
+    <code>  
+        &lt;audio controls&gt;
+                &lt;source src="audio/Matoub-Lounes-Zzher-iw.mp3" type="audio/mpeg"&gt;
+                Your browser does not support the audio element.
+            &lt;/audio&gt;
+</code>
+            </pre>
+
+            <audio controls>
+                <source src="audio/Matoub-Lounes-Zzher-iw.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p class='note'>Note: For the audio element the most supported format is  <code>.mp3</code></p>
+
+            <h2>New form elements and attributes:</h2>
+            <h3>New attributes</h3>
+            <h4>Placeholder attribute for an input field: </h4>
+
+            <form>
+                <input name="q" placeholder="Type you keywords here">
+                <input type="submit" value="Search">
+            </form>
+            <p>A placeholder for an input field must be a text. It disappears when the user enter a new text in the field.</p>
+            <h4>autofocus attribute for an input field: </h4>
+            <form>
+                <input name="q" autofocus>
+                <input type="submit" value="Search">
+            </form>
+            <p>With autofocus attribute, the field is automatically focused (the cursor goes inside it) when page loads, as we can see in
+                the example above. Browsers that don’t support the autofocus attribute will simply ignore it.</p>
+
+            <h3>New values for input type attribute: </h3>
+            <h4>Email input:</h4>
+            <form>
+                <input type="email" placeholder="Type you email here">
+            </form>
+            <p>The email type is useful for form control or to display a keyboard with handy <code>@</code> in case of touch devices with non physical keyboard.</p>
+            <h4>URL input:</h4>
+            <form>
+                <input type="url" placeholder="Type you website address here" size='50'>
+            </form>
+            <h4>Number input</h4>
+            <p>The input of type number is very useful to enter a number and it give as a lot of control, like the minimum value, 
+                maximum value, the default value and the step from a value to another, as we can see in the following example.</p>
+            <pre><code>  &lt;input type="number"
+                   min="0"
+                   max="10"
+                   step="2"
+                   value="6"&gt;</code></pre>
+       
+            <input type="number"
+                   min="0"
+                   max="10"
+                   step="2"
+                   value="6">
+                 <h4>An number as slider: </h4>
+              <pre><code>  &lt;input type="range"
+                   min="0"
+                   max="50"
+                   step="1"
+                   value="6"&gt;</code></pre>
+            <input type="range"
+                   min="0"
+                   max="50"
+                   step="1"
+                   value="6">
+            <p>Notice that the slider can also be controlled by the keyboard (left and right arrows)</p>
+            <h4>Date input</h4>
+            <p> The date input will allow us to show the date piker as we can see in the following example: </p>
+            <pre><code>  &lt;input type="date"  &gt;</code></pre>          
+           
+            <input type="date"> 
+            <p class="note">Note: The date input is not supported by all modern browsers. Currently it's only supported by Google Chrome, Opera browser and Safari (for Mac OS and iOS).         
+            </p>
+            <p>A lot of HTML5 elements and attributes are not supported by some browsers, especially INTERNET Explorer which is used to have a poor support for new standards like 
+                HTML5 and CSS3. To check which browser
+                supports which element or attribute, please visite the following web site <a href="http://html5test.com/" target="_blank">http://html5test.com/</a></p>
+            <p style="color:blue; font-weight: 800; border: orangered dashed 0.5ex; padding: 1ex; border-radius: 2ex;"> In the following days we are going to add new demos, because the list of new staff in HTML5 is long!</p>
+             <form action="comment.php" method="post" id="comments">
+                <h2>Leave a comment</h2>
+                <label for="user">Your Name: </label>
+                <input type="text" name="userName" id="user">
+                <label for="comment">Your comment:</label>
+                <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+                <input type="submit" value="submit">
+
+
+            </form>
+        </article>
+        <p style="font-size: 80%; text-align: center"><a href="#top" style="font-size: 300%;" >&#8679;</a>
+            <br />Go back to top
+            </p>
+        <footer>
+            <p>Copyright&COPY;: Saïd GUERRAB, Vanier College Internet-I Home Work. 2004</p>
+            <address>821 Sainte-Croix,&Star; Montréal,&Star; QC H4L 3X9 &Star;(514) 744-7500</address>
+
+        </footer>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s);
+            }(document, 'script'));
+        </script>
+          <script>
+            $("#nav").menu({position: {at: "left bottom"}});
+        </script>
+    </body>
+</html>

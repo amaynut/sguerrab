@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+           <meta name="viewport" content="width=device-width">
+        
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <meta name="author" content="SAID GUERRAB" />
+        <title>CSS3 Selectors</title>
+        <!-- META TAGS for SEO -->
+        <meta name="robots" content="ALL" />
+        <meta name="keywords" content="HTML5, CSS3, HTML, CSS, web development, W3C, 
+              web standard, CSS Selectors, HTML5 elements, learn, demos, specification, browser" />
+        <meta name="description" content="This website gives the essential (only what you need to know)
+              about HTML5 and CSS3.">
+
+    <!-- favicon.ico and apple-touch-icon.png  -->
+          <link rel="shortcut icon" href="favicon.ico"  />
+          <link rel="apple-touch-icon" href="favicon.png" />
+
+        <!-- Include style sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- include javascript libraries -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/css3pie/PIE.js"></script>
+        <script src="js/vendor/html5shiv/html5shiv.js"></script>      
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header  id="top">
+            <div id="banner" style="margin: 0 auto">
+                <img id="logo" src="img/banner.png" alt="banner"/>
+            </div>
+            <h1 id="slogon"></h1>
+            <nav>
+                <ul id="nav">
+                    <li>  <a href="index.html">Home</a></li>
+                    <li><a href="#">HTML5 Category</a>
+                        <ul>               
+                            <li><a href="html5_structure.html">Structure</a></li>
+                            <li><a href="html5-elements-and-attributes.html">Elements & attributes</a></li>
+                            <li>   <a href="html5_demos.html">HTML5 Demos</a></li>
+                        </ul>
+                    </li>                
+                    <li><a href="#">CSS3 Category</a>
+                        <ul>
+                            <li>   <a href="CSS3-Selectors.html">CSS3 Selectors</a></li>
+                            <li>   <a href="CSS3-Properties.html">CSS3 Properties</a></li>
+                            <li>   <a href="CSS3-Demos.html">CSS3 Demos</a></li>
+                        </ul>
+                    </li>             
+                    <li>   <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>CSS3 Selectors </h1>
+            <p>CSS3 came with a bunch of new and useful selectors to make the selection process easier. Now, with CSS3 selectors we can virually select anything in the HTML document.
+                For instance, we can select elements by specifying the language attribute. 
+            </p>
+            <h2> Universal selector: Select all with <code>(*)</code> operator:</h2>
+            <pre><code>table * {padding: 1ex;}</code></pre>
+            <p>Will select all descendants of the element table. If no parent element specified, the <code>*</code> will cause the selection of everything within the document. It will be
+                the shorthand for <code>html * { ...};</code></p>
+
+            <h2> Select an element by its id with <code>(#)</code> operator:</h2>
+            <pre><code>#main  {text-align:  justify;}</code></pre>
+            The above code could be written by specifying the target element with the given id. For instance, if it's a div, we could write:
+            <pre><code>div#main  {text-align:  justify;}</code></pre>
+            <h2> Select an element by its class with <code>(.)</code> operator:</h2>
+            <pre><code>.error  {color:  justify;}</code></pre>
+            <p>The above code will select any element which has a class named <code>error</code>. An HTML element can belong to several class. If we want to taget
+                only a specific elements with a specific class, for instance, to select a paragraph of class <code>error</code>, we need to write:</p>
+            <pre><code>p.error  {color:  justify;}</code></pre>
+            <p>So, the above code won't be applied to div or any other elements which has <code>error</code> as a class name.</p>
+            <h2> Select a descendant element with this syntax:  <code>ascendant descendant</code>:</h2>
+            <pre><code>footer p {font-size: 0.9em;}</code></pre>
+            <p>The above code will selection all paragraphs<code>(p)</code> descendant of the element <code>footer</code>, no matter 
+                the deep of this hierarchy. Here the paragraph hasn't to be the direct child of <code>footer</code> element. 
+            </p>
+            <h2> Type selector: Select an element by it's name:</h2>
+            <pre><code>article { margin: 1em 4em;}</code></pre>
+            <p>The above code will select every element named <code>article</code> in the document.</p>
+            <h2> Select an element specifying it's adjacent sibling, with <code>adjacent-sibling + target-element</code> </h2>
+            <pre><code>div + p  { line-height: 1.5;}</code></pre>
+            <p>The above will select every paragraph which comes directly after a div element as a sibling. The target element has to come 
+                directly after the adjacent-sibling. Like the below example:</p>
+              
+            <pre>
+         
+<code>
+&lt;div&gt;
+I'm a div element, I'm an adjacent sibling of the following paragraph. 
+&lt;/div&gt;
+&lt;p&gt;
+Hey, I'm a paragraph. I want to be selected with adjacent sibling notation. 
+&lt;/p&gt;
+&lt;p&gt;
+Hey, I'm a paragraph too. but I won't be selected because I don't follow directly the div element. 
+&lt;/p&gt;
+</code>
+            </pre>
+            <h2> Select an element by specifying its parent with <code>parent > child</code>: </h2>
+            <pre><code>div >  p  { color: blue;}</code></pre>
+            <p>The above code will cause the selection of paragraphs which are direct child of a div element. </p>
+
+            <h2>Select an element by specifying its sibling<code> sibling ~ sibling-target-element</code>: </h2>
+            <pre><code>span ~  strong  { text-decoration: underline;}</code></pre>
+            <p>The above code will underline every <code>strong</code> element which is sibling of   <code>span</code> element.</p>
+            <h2>Attribute selectors</h2>
+            <h3>Select an element by it's attribute with <code>element[attribute]</code>:</h3>
+
+            <pre><code>td[colspan]  { background-color: #CCC;}</code></pre>
+            <p>The above code will cause the selection of every <code>td</code> which has a  <code>colspan </code>attribute</p>
+            <h3>Select an element by specifying the value of an attribute <code>element[attribute="value"]</code>:</h3>
+            <pre><code>td[colspan="3"]  { background-color: rgb(125, 100, 0);}</code></pre>
+            <p>The above code will select only the <code>td</code> element with <code>colspan="3"</code></p>
+            <h3>Select an element by specifying one value of a given attribute <code>element[attribute~="value"]</code>:</h3>
+            <p>This is useful when an attribute has more than one value. For instance, if we have the following code: </p>
+            <pre>
+         
+<code>
+&lt;a rel="external copyright"&gt;
+I'm a an external link to copyright.
+&lt;/a&gt;
+&lt;a rel="copyright"&gt;
+I'm an internal link to copyright.
+&lt;/a&gt;
+</code>
+            </pre>
+            <p> We need to use the following CSS code to select the links with copyright relation.</p>
+            <pre><code>a[rel~="copyright"]  { background-color: #CCC;}</code></pre>
+            <h3>Select an element by specifying  the beginning of its attribute before the dash (-) symbol<code> element[attribute |="value"] </code>:</h3>
+            <pre><code> a[hreflang|="en"] {color: brown;} </code></pre>
+            <p>Notice in the above example the presence of <code>|</code> character. Which will cause the selection <code>hreflang="en-US"</code>
+                as well as hreflang="en-CA" for instance.</p>
+            <h3>Select an element by specifying a substring value of an attribute </h3>
+            <h4 >Begin with : [attribute^=value]</h4>
+            <pre><code>img[src="images/"]  {width: 50%;}</code></pre>
+            <h4>End with : [attribute$=value]</h4>
+            <pre><code>a[href$=".html"]  {color: white;}</code></pre>
+            <h4>Contains at least one instance of the substring : [attribute*=value]</h4> 
+            <pre><code>p[title*="hello"]  {width: 50%;}</code></pre>
+
+            <h2>Pseudo-classes selection</h2>
+            <p>We select an element based on a its pseudo-class, a pseudo-class represent a state of that element (for instance when a link
+                is hovered, the pseudo-class is <code> :hover</code>, it can also represent a part of that element. For instance
+                <code> :first-letter</code> will select the first letter of an element. 
+            </p>
+            <h3>The link pseudo-classes: <code>:link </code> and <code>:visited</code></h3>
+            <h4>The unvisited link:</h4>
+            <pre><code>a:link  {color: blue;}</code></pre>
+            <h4>The visited link:</h4>
+            <pre><code>a:visited  {color: black;}</code></pre>
+            <h3>The user action pseudo-classes<code> :hover, :active, and :focus</code></h3>
+            <p>Those pseudo-class can be applied on any element, not only a link</p>
+            <h4>Select an element when it's hovered: </h4>
+            <pre><code>p:hover  {color: red;}</code></pre>
+            <h4>Select an element when it's active </h4>
+            <p> The active state is the moment between the click and the release of the mouse button on an element.</p>
+            <pre><code>button:active  {background-color: yellow;}</code></pre>
+            <h4>Select an element when it's focused </h4>
+            <pre><code>input[type="text"]:hover  {border-color: green;}</code></pre>
+            <h3> Select an element when it's targeted by an URL with <code>:target</code> : </h3>
+            <p> For the following HTML code: </p>
+            <pre>
+         
+<code>
+&lt;div id="section1"&gt;
+&lt;p&gt;
+I'm the first section in the document
+&lt;/p"&gt;
+&lt;/a&gt;
+&lt;div&gt;
+I'm another section in the document
+&lt;/div&gt;
+</code>
+            </pre>
+
+            <p>When ever the div element is targeted by  fragment identifiers link like <code> example.org#section1</code>, the following code will run:</p>
+            <pre><code>:target  {background-color: green;}</code></pre>
+            <h3> Select an element by its language with <code>:lang</code>  pseudo-selector</h3>
+            <p>The target element must have a language attribute</p>
+            <pre><code>section:lang(fr) {background-color: green;}</code></pre>
+            <p>The above code will select any section where the language is set to French</p>
+            <h3>The UI (a form for instance) element states pseudo-classes: </h3>
+            <h4>The <code>:enabled</code> and <code> :disabled</code> pseudo-classes</h4>
+            <p>The above pseudo classes are useful for User Interface like a form.
+                The <code>:enabled</code> pseudo-class represents user interface elements that are in an enabled state.</p>
+            <pre><code>input:disabled {background-color: #333;}</code></pre>
+            <p>The above code will select the input fields in <strong>disabled</strong> state and the following code will select the input fields in <strong>enabled</strong> state</p>
+            <pre><code>input:disabled {background-color: rgb(0, 200, 0);}</code></pre>
+            <h3> Structural pseudo-classes</h3>
+            <h4> :root pseudo-class</h4>
+            <p>The <code>:root</code> pseudo class will select the root element in the XML document. In HTML documents, it's the <code>html</code> tag in most cases.</p>
+            <h4> :nth-child() pseudo-class</h4>
+            <p>This pseudo select is used to select the nth child of the parent element. It will always select the nth child no matter the type of that child. The syntax is <code> parent element:nth-child(n) {style}</code>. n can be a number, a keyword, or a formula With the following example we are going to select the seventh row in a table:</p>
+            <pre><code>table tr:nth-child(7) {background-color: blue;}</code></pre>
+            <p>If we want to select the even children we put the keyword <code>even</code> as a parameter. The same thing to select the odd children, we put the keyword <code>odd</code></p>
+            <p class="note">Note: Internet Explorer 8 and earlier versions do not support the :nth-child() selector.</p>
+            <h4>:nth-last-child() pseudo-class</h4>
+            <p>This pseudo class select the nth child counting from the last child. For instance to select the last a paragraph which is the before last child of aside element we will need to right: </p>
+            <pre><code>aside p:nth-last-child(2) {style}</code></pre>
+            <h4>:nth-of-type() pseudo-class</h4>
+            <p>With the <code>:nth-of-type()</code> pseudo selector we specify the type of the child. For instance if we write: </p>
+            <pre><code>aside p::nth-of-type(2) {style}</code></pre>
+            <p>We will select the second child of <code>aside</code> element of type paragraph only.</p>
+            <h4><code>:nth-last-of-type() </code>pseudo-class</h4>
+            <p><code>:nth-last-of-type() </code> is used to select the nth child of a given type from the last child of that type. The following code will select the third child of type paragraph counting from the last paragraph:</p>
+            <pre><code>div :nth-last-of-type(3)</code></pre>
+            <h4> <code>:first-child</code> pseudo-class</h4>
+            <p>This pseudo code is used to select the first child of a parent element no matter the type of that child.</p>
+            <h4> <code>:last-child</code> pseudo-class</h4>
+            <p>This pseudo code is used to select the last child of a parent element no matter the type of that child.</p>
+            <h4><code>:first-of-type</code> pseudo-class</h4>
+             <p>This pseudo code is used to select the first child of a parent element of specific type.</p>
+            <h4><code>:last-of-type</code> pseudo-class</h4>
+            <p>This pseudo code is used to select the last child of a parent element of specific type.</p>
+            <h4><code>:only-child</code>  pseudo-class</h4>
+            <p>Selects every element that is the only child of its parent. The following code will select an element that is the only child of its parent. If the parent element has more that one child it will select nothing.</p>
+            <pre><code>:only-child</code></pre>
+            <h4><code>:only-of-type</code> pseudo-class</h4>
+            <p>This is used to select the only child of a given type.</p>
+            <pre><code>p:only-child {style}</code></pre>
+            <p>The above code will select the only child of type paragraph.</p>
+            <h4> <code>:empty </code>pseudo-class</h4>
+            <p>This is used to select an element that has no children (including text nodes). For instance to select an empty table cell, we need to right:</p>
+            <pre><code>td:empty {background-color: red;}</code></pre>
+
+            <form action="comment.php" method="post" id="comments">
+                <h2>Leave a comment</h2>
+                <label for="user">Your Name: </label>
+                <input type="text" name="userName" id="user">
+                <label for="comment">Your comment:</label>
+                <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+                <input type="submit" value="submit">
+
+
+            </form>
+        </article>
+           <p style="font-size: 80%; text-align: center"><a href="#top" style="font-size: 300%;" >&#8679;</a>
+            <br />Go back to top
+            </p>
+        <footer>
+            <p>Copyright&COPY;: Saïd GUERRAB, Vanier College Internet-I Project. 2014</p>
+            <address>821 Sainte-Croix,&Star; Montreal,&Star; QC H4L 3X9 &Star;(514) 744-7500</address>
+        </footer>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+
+         <script>
+            $("#nav").menu({position: {at: "left bottom"}});
+        </script>
+    <code> xqxssdcs</code>
+    </body>
+</html>

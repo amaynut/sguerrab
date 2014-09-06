@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# AUTHOR
+
+    Said GUERRAB 
+
+# THANKS
+
+    Samir CHEBBINE, the teacher for this school project in VANIER C‎OLLEGE
+
+# TECHNOLOGY 
+    HTML5, CSS3, SASS
+    Normalize.css, jQuery, Modernizr, CSS3PIE, HTML5SHIV, HTML5Boilerplate
+/* SITE */
+	Last update:2014/02/20
+	Language:  English 
+	Doctype:HTML5
+	IDE: Netbeans, Illustrator

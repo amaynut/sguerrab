@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+           <meta name="viewport" content="width=device-width">
+        
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <meta name="author" content="SAID GUERRAB" />
+        <title>HTML5 and CSS3: Home Page</title>
+        <!-- META TAGS for SEO -->
+        <meta name="robots" content="ALL" />
+        <meta name="keywords" content="HTML5, CSS3, HTML, CSS, web development, W3C, 
+              web standard, CSS Selectors, HTML5 elements, learn, demos, specification, browser" />
+        <meta name="description" content="This website gives the essential (only what you need to know)
+              about HTML5 and CSS3.">
+
+    <!-- favicon.ico and apple-touch-icon.png  -->
+          <link rel="shortcut icon" href="favicon.ico"  />
+          <link rel="apple-touch-icon" href="favicon.png" />
+
+        <!-- Include style sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- include javascript libraries -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/css3pie/PIE.js"></script>
+        <script src="js/vendor/html5shiv/html5shiv.js"></script>      
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header id="top">
+            <div id="banner" style="margin: 0 auto">
+
+                <img id="logo" src="img/banner.png" alt="banner"/>
+
+            </div>
+            <h1 id="slogon"></h1>
+
+          <nav>
+                <ul id="nav">
+                    <li>  <a href="index.html">Home</a></li>
+                    <li><a href="#">HTML5 Category</a>
+                        <ul>               
+                            <li><a href="html5_structure.html">Structure</a></li>
+                            <li><a href="html5-elements-and-attributes.html">Elements & attributes</a></li>
+                            <li>   <a href="html5_demos.html">HTML5 Demos</a></li>
+                        </ul>
+                    </li>                
+                    <li><a href="#">CSS3 Category</a>
+                        <ul>
+                            <li>   <a href="CSS3-Selectors.html">CSS3 Selectors</a></li>
+                            <li>   <a href="CSS3-Properties.html">CSS3 Properties</a></li>
+                            <li>   <a href="CSS3-Demos.html">CSS3 Demos</a></li>
+                        </ul>
+                    </li>             
+                    <li>   <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>Presentation of HTML5 and CSS3</h1>
+            <section id="HTML5">
+
+                <h2>What is HTML5?</h2>
+                <p>HTML5 is the latest version of <abbr title="HyperText Markup Language">HTML</abbr> Standard. Which is used to
+                    structure the presentation of web  pages. As of February  2014, is a <strong>candidate recommendation</strong> of the World Wide Web Consortium (W3C). 
+                    As its stated in the W3C official website: 
+                    <cite>HTML5 defines an HTML syntax that is compatible with HTML4 and XHTML1 documents published on the Web.</cite>
+                    <sup><a href="http://www.w3.org/TR/2011/WD-html5-diff-20110405/" title="Check the source of the citation">Source</a></sup>
+                </p>
+                <p>The W3C is planning to release the stable recommendation for the version 5.0 by the end of this year (2014). But the work for the future version (5.1 and 5.2) has already begun.
+                    Hereafter a table which shows the calendar for the release of the different versions of  HTML5:</p>
+                <table id="HTML5TimeLine">
+                    <caption>The combined timelines for HTML 5.0, HTML 5.1 and HTML 5.2 (Source:<a href="http://en.wikipedia.org/wiki/HTML5"> Wikipedia</a>):</caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>2012</th>
+                            <th>2013</th>
+                            <th>2014</th>
+                            <th>2015</th>
+                            <th>2016</th>        
+                        </tr> 
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>HTML 5.0</th>
+                            <td>Candidate Recommendation</td>
+                            <td>Call for Review</td>
+                            <td>Recommendation</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>HTML 5.1</th>
+                            <td>First Working Draft</td>
+                            <td></td>
+                            <td>Last Call</td>
+                            <td>Candidate Recommendation</td>
+                            <td>Recommendation</td>
+                        </tr>
+                        <tr>
+                            <th>HTML 5.2</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>First Working Draft</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+
+
+                </table>
+
+                <h2>What's new in HTML5?</h2>
+                <p>HTML5 became rapidly very popular because it came a whole new bunch of staff. Hereafter a short list of new things brought by HTML5:  </p>
+                <ul type="square">
+                    <li>New elements (new tags) such as: <code>&lt;video&gt;,  &lt;audio&gt;,  &lt;nav&gt;,... </code></li>
+                    <li><code> HTML5</code> is much more semantic. It uses elements which has a meaning in the document: <code> &lt;article&gt;,  &lt;header&gt;,  &lt;footer&gt;,...</code></li>
+                    <li>New Attributes: A lot of useful attributes are introduced by <code> HTML5 </code>to make the web development easier.</li>
+                    <li>Video and Audio: Now we can add a video or audio without an external plugin like Flash.  </li>
+                    <li>2D/3D Graphics: Now we can draw directly in <code> HTML5 </code>webpage with the help of technologies such as: <code> CSS3, SVG</code>  and<code> JavaScript</code></li>
+                    <li>Local Storage</li>
+                    <li>Local<code>  SQL </code>Database</li>
+                    <li>Localisation</li>
+                </ul>
+            </section>
+            <section id="CSS3">
+                <h2>What's CSS3?</h2>
+                <p>CSS3 is the third and the latest version of <abbr title="Cascading Style Sheets">CSS</abbr>
+                    which is the language to format the HTML content of a web page. CSS is designed to 
+                    separate presentation (look and feel) from the actual content (text and medias). That's why former HTML elements like
+                    <code> &lt;font&gt;</code> or <code>&lt;center&gt; </code>(present in HTML4)
+                    are now depreciated in favor of CSS use.
+                </p>
+                <p>Historically, the fist version of CSS was released as a recommendation by the W3C in 1993. Unlike the previous version of CSS (1 & 2) which 
+                    were made as one big monolithic  block, CSS3 is completely modular. In other words, CSS3 specification is a set a separate modules. Each module add new features or 
+                    extend features defined in CSS2.1 with backward compatibility. Due to this modular character, different modules have a different status. 
+                    Hereafter some of them and their current status: </p>
+                <table id="CSS3MODULES">
+                    <caption>Table showing few CSS3 modules and their current status (as February 2014)</caption>
+                    <thead>
+                        <tr>
+                            <th>Module</th>
+                            <th>Status</th>
+                            <th>Date of the document</th>
+                            <th>Link to the document</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>CSS Color Module</th>
+                            <td class="rec">W3C Recommendation</td>
+                            <td><time datetime="2011-06-07">07 June 2011</time></td>
+                            <td><a href="http://www.w3.org/TR/css3-color/">w3.org/TR/css3-color/</a></td>
+                        </tr>
+                        <tr>
+                            <th>Selectors Level 3</th>
+                            <td class="rec">W3C Recommendation </td>
+                            <td>29 September 2011</td>
+                            <td><a href="http://www.w3.org/TR/css3-selectors/">w3.org/TR/css3-selectors/</a></td>
+                        </tr>
+                        <tr>
+                            <th>Media Queries</th>
+                            <td class="rec">W3C Recommendation</td>
+                            <td>19 June 2012</td>
+                            <td><a href="http://www.w3.org/TR/css3-mediaqueries/">w3.org/TR/css3-mediaqueries/</a></td>
+                        </tr>
+                        <tr>
+                            <th>CSS Template Layout Module</th>
+                            <td class="wd">W3C Working Draft</td>
+                            <td>29 November 2011</td>
+                            <td><a href="hhttp://www.w3.org/TR/css3-layout/">w3.org/TR/css3-layout/</a></td>
+                        </tr>
+                        <tr>
+                            <th>Backgrounds and Borders Module</th>
+                            <td class="lcwd">W3C Last Call Working Draft</td>
+                            <td>4 February 2014</td>
+                            <td><a href="http://www.w3.org/TR/css3-background/">w3.org/TR/css3-background/</a></td>
+                        </tr>
+                        <tr>
+                            <th>CSS Fonts Module</th>
+                            <td class="crec">W3C Candidate Recommendation</td>
+                            <td>3 October 2013</td>
+                            <td><a href="http://www.w3.org/TR/css3-webfonts/">w3.org/TR/css3-webfonts/</a></td>
+                        </tr>
+                        <tr>
+                            <th>CSS Text Module</th>
+                            <td class="lcwd">W3C Last Call Working Draft</td>
+                            <td>Draft 10 October 2013</td>
+                            <td><a href="http://www.w3.org/TR/css3-text/">w3.org/TR/css3-text/</a></td>
+                        </tr>
+                        <tr> 
+                            <th>CSS Grid Layout Module </th>
+                            <td class="wd">W3C Working Draft</td>
+                            <td>23 January 2014</td>
+                            <td><a href="http://www.w3.org/TR/css3-grid/">w3.org/TR/css3-grid/</a></td>
+                        </tr>
+                        <tr> 
+                            <th>Multi-column Layout</th>
+                            <td class="crec">W3C Candidate Recommendation </td>
+                            <td>12 April 2011</td>
+                            <td><a href="http://www.w3.org/TR/css3-multicol/">w3.org/TR/css3-multicol/</a></td>
+                        </tr>
+                        <tr> 
+                            <th>Lists and Counters Module</th>
+                            <td class="wd">W3C Working Draft </td>
+                            <td>24 May 2011</td>
+                            <td><a href="http://www.w3.org/TR/css3-lists/">www.w3.org/TR/css3-lists/</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>What's new in CSS3?
+
+                </h2>
+                <p>CSS3 brought a lot of new capabilities to style a markup document. Hereafter a shortlist of few of them:
+                </p>
+                <ul>
+                    <li><strong>New selectors</strong>: with CSS3 module the selection capabilities is much more broad. For instance, 
+                        now we can select an element depending on its attribute. </li>
+                    <li><strong>Border styling:</strong> with CSS3 we can easily style borders with rounded corners for instance without need of an image.</li>
+                    <li><strong>New color capabilities:</strong> CSS3 a lot of new features related with usage of colors, such as gradients and opacity </li>
+                    <li><strong>Text effects</strong>: CSS3 offers a large possibilities to make a sophisticated text-effects with properties like: 
+                        <code>text-shadow</code>, <code>text-overflow</code> and <code>word-wrap</code>.</li>
+                    <li><strong>Multi-column layouts</strong>: As we seen in the previous table, CSS3 has a module dedicated to multi-column which offers an easy way to make a multi-columns 
+                        layout just as press magazines of newspapers are doing since decades.</li>
+                    <li><strong>Web fonts</strong>: with <code>@font-face</code> statement, CSS3 allow us to import easily beautiful fonts and use them directly in the web site. </li>
+                </ul>
+            </section>
+          
+            
+        </article>
+          <p style="font-size: 80%; text-align: center"><a href="#top" style="font-size: 300%;" >&#8679;</a>
+            <br />Go back to top
+            </p>
+        <footer>
+            <p>Copyright&COPY;: Saïd GUERRAB, Vanier College Internet-I Home Work. 2004</p>
+            <address>821 Sainte-Croix,&Star; Montréal,&Star; QC H4L 3X9 &Star;(514) 744-7500</address>
+
+        </footer>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+        <script>
+            $("#nav").menu({position: {at: "left bottom"}});
+        </script>
+    </body>
+</html>

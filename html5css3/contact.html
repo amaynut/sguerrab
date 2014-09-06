@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+           <meta name="viewport" content="width=device-width">
+        
+        <link type="text/plain" rel="author" href="humans.txt" />
+        <meta name="author" content="SAID GUERRAB" />
+        <title>Contact Page</title>
+        <!-- META TAGS for SEO -->
+        <meta name="robots" content="ALL" />
+        <meta name="keywords" content="HTML5, CSS3, HTML, CSS, web development, W3C, 
+              web standard, CSS Selectors, HTML5 elements, learn, demos, specification, browser" />
+        <meta name="description" content="This website gives the essential (only what you need to know)
+              about HTML5 and CSS3.">
+
+    <!-- favicon.ico and apple-touch-icon.png  -->
+          <link rel="shortcut icon" href="favicon.ico"  />
+          <link rel="apple-touch-icon" href="favicon.png" />
+
+        <!-- Include style sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+
+        <!-- include javascript libraries -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/css3pie/PIE.js"></script>
+        <script src="js/vendor/html5shiv/html5shiv.js"></script>      
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    </head>
+    <body>
+          <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+       
+        <header>
+            <div id="banner" style="margin: 0 auto">
+                <a href="index.html" title="go to the home page">
+                <img id="logo" src="img/banner.png" alt="banner"/>
+                </a>
+            </div>
+                   <nav>
+                <ul id="nav">
+                    <li>  <a href="index.html">Home</a></li>
+                    <li><a href="#">HTML5 Category</a>
+                        <ul>               
+                            <li><a href="html5_structure.html">Structure</a></li>
+                            <li><a href="html5-elements-and-attributes.html">Elements & attributes</a></li>
+                            <li>   <a href="html5_demos.html">HTML5 Demos</a></li>
+                        </ul>
+                    </li>                
+                    <li><a href="#">CSS3 Category</a>
+                        <ul>
+                            <li>   <a href="CSS3-Selectors.html">CSS3 Selectors</a></li>
+                            <li>   <a href="CSS3-Properties.html">CSS3 Properties</a></li>
+                            <li>   <a href="CSS3-Demos.html">CSS3 Demos</a></li>
+                        </ul>
+                    </li>             
+                    <li>   <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    <article>
+        <h1>Contact Us</h1>
+        <p>Use this contact form if you want to send us a message. If you have any suggestion or you want to hire us for your HTML5 and CSS3 project, don't hesitate to send us a message.</p>
+        <form name="contactForm" action="sendContactForm.php" method="POST" id="contactForm">
+
+            <!-- Hidden Field to get information from the user -->
+            <input type="hidden" name="ip" value="<?php echo $ipi ?>" />
+            <input type="hidden" name="httpref" value="<?php echo $httprefi ?>" />
+            <input type="hidden" name="httpagent" value="<?php echo $httpagenti ?>" />
+            <!-- ............................................... -->
+            <fieldset > 
+                <legend>Your Identity</legend>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" value="" size="20" class="text-field"/>
+
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" value="" size="20" class="text-field"/>
+
+                <label for="email">Email</label>
+                <input type="text" name="email" value="" id="email" size="20" class="text-field"/>
+
+            </fieldset>
+            <fieldset>
+                <legend>Message Information</legend>
+                <label for="recipient">Recipient</label>
+                <select name="recipient" id="recipient">
+                    <option value="">Select a recipient</option>
+                    <option value="SAID GUERRAB">Saïd GUERRAB</option>
+                    <option value="Webmaster">Webmaster</option>
+                </select>
+                <label for="subject" >Subject</label>
+                <input type="text" name="subject" id="subject" value="" size="20" class="text-field"/>
+
+                <label for="message">Message text</label>
+                <textarea name="Message" rows="10" cols="20" id="message">
+                </textarea>
+
+                <input type="submit" value="Send" id="Send"/>
+                <input type="reset" value="Clear" id="reset"/>
+
+            </fieldset>
+
+
+        </form>
+        </article>
+        <footer>
+            <p>Copyright&COPY;: Saïd GUERRAB, Vanier College Internet-I Home Work. 2004</p>
+            <address>821 Sainte-Croix,&Star; Montréal,&Star; QC H4L 3X9 &Star;(514) 744-7500</address>
+
+        </footer>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+        <script>
+            $("#nav").menu({position: {at: "left bottom"}});
+        </script>
+    </body>
+</html>

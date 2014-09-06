@@ -1,0 +1,70 @@
+html, body {height: 100%;}
+body {
+    background-color: #FEEDB9;
+    background-image:url(../Photos/bodybg.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-attachment: scroll;
+}
+#main {
+    position: absolute; top: 320px; left: 250px;
+    width:60%;
+    height:auto;
+    color: black; 
+    background: #E0D997; 
+    font: 13px Verdana, sans-serif; 
+    padding: 8px; 
+    border: dashed #F7CB36 2px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+}
+#logo {
+    position: absolute; top: 140px; left:250px; width: 61%;}
+.photo {
+    text-align:center;
+}
+#pub, #addthis  { 
+    visibility: collapse; }
+
+#footer {
+    position: absolute; left: 25px; bottom: 10px;
+}
+.credit { text-align:center; font-size:70%; }
+
+p, li {
+    font-size: 110%;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 30px;
+    color: #595A52;
+}
+p:first-letter 
+{ 
+    width:0.7em;
+    font-size:300%;
+    font-family:algerian,courier;
+}
+
+h1 {
+    font-size: 300%;
+    position: absolute; top: 5px; left: 0;
+    color: #FEEDB9;}
+h2 {
+    font-size: 200%;
+    color: #595A52;
+}
+
+#menu { 
+    font-size: 150%;
+    position: absolute; top: 90px; left: 400px;
+}
+#menu > a {
+    color: #F7CB36;
+    text-decoration:none;
+}
+#menu > a.page-actuelle { color: #FEEDB9; }
+#menu > a:hover {color: #FEEDB9; font-size:130%;}
+

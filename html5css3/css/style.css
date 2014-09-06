@@ -1,0 +1,300 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 2, 2014, 3:19:53 PM
+    Author     : Tamurt
+*/
+/* 
+    Created on : Feb 2, 2014, 3:20:32 PM
+    Author     : Tamurt
+*/
+/* 
+    Created on : Feb 19, 2014, 7:38:49 PM
+    Author     : Tamurt
+*/
+/* style the menu ------------------------------------------------*/
+nav {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#nav {
+  overflow: hidden;
+  background: #f16529;
+}
+
+#nav ul {
+  overflow: visible !important;
+}
+
+#nav > li {
+  float: left;
+  display: block;
+  width: auto !important;
+}
+
+#nav ul li {
+  display: block;
+  float: none;
+}
+
+.ui-menu ul li ul {
+  left: 120px !important;
+  width: 100%;
+  background-color: #d94b0e !important;
+}
+
+#nav ul li ul {
+  width: auto;
+}
+
+#nav > li {
+  margin: 5px 5px !important;
+  padding: 0 0 !important;
+  background-color: #d94b0e;
+}
+
+.ui-menu > li > a {
+  float: left;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  color: #134460;
+}
+
+.ui-menu .ui-menu-icon {
+  margin-top: 0.3em !important;
+  background-color: red !important;
+}
+
+.ui-menu .ui-menu .ui-menu li {
+  float: left;
+  display: block;
+}
+
+.ui-menu a:hover {
+  color: white;
+}
+
+/* end menu styling ----------------------------------------------------- */
+/* body */
+body {
+  width: 80%;
+  margin: 0 auto;
+  border-left: #369cd6 solid 0.3ex;
+  border-right: #369cd6 solid 0.3ex;
+  background: URL("../img/sprinkles.png") repeat;
+}
+
+div#banner {
+  text-align: center;
+}
+div#banner img {
+  width: 80%;
+  height: auto;
+  padding-top: 0.5em;
+}
+
+article {
+  margin: 1em 4em;
+}
+article p {
+  padding: 0 1em;
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 2em;
+}
+article p:first-of-type:first-letter {
+  font-weight: bold;
+  font-size: 300%;
+  color: #1c628a;
+}
+
+h1 {
+  color: #222;
+  text-shadow: 0px 2px 3px #555;
+}
+
+h1, footer {
+  text-align: center;
+}
+
+footer {
+  background: #f16529;
+  height: 5em;
+  border-top: #369cd6 solid 0.3ex;
+  margin-top: 2em;
+}
+footer p, footer address {
+  vertical-align: middle;
+}
+
+/* Contact Form */
+#contactForm {
+  width: 50%;
+  margin: 0 auto;
+  border: #f16529 solid 0.3ex;
+  border-radius: 1ex;
+  padding: 0.5em 1em;
+}
+#contactForm input, #contactForm textarea, #contactForm select {
+  width: 80%;
+  margin: 0 10%;
+  display: block;
+}
+#contactForm input:focus, #contactForm textarea:focus, #contactForm select:focus {
+  border: 0.2em solid #f16529;
+}
+#contactForm label {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 10%;
+  color: #369cd6;
+}
+#contactForm textarea {
+  height: 15em;
+}
+#contactForm #Send, #contactForm #reset {
+  margin-top: 2ex;
+  width: 20%;
+  padding: 0.5em;
+  background-color: #369cd6;
+  display: inline;
+}
+#contactForm #Send:hover {
+  background-color: green;
+}
+#contactForm #reset:hover {
+  background-color: red;
+}
+#contactForm fieldset {
+  padding: 1em 2em;
+  border-top: #369cd6 solid 0.3ex;
+}
+#contactForm legend {
+  color: #f16529;
+  padding: 0 1em;
+}
+
+table caption {
+  font-size: 70%;
+}
+table th {
+  background: #f7aa89;
+  color: #1c628a;
+}
+table td, table th {
+  border: 3px #369cd6 ridge;
+  padding: 1ex;
+}
+
+table#HTML5TimeLine thead th:first-of-type {
+  border: none;
+  background: none;
+}
+
+table#CSS3MODULES td, table#CSS3MODULES th {
+  padding: 0.4ex;
+}
+table#CSS3MODULES th {
+  text-align: left;
+}
+table#CSS3MODULES td.rec {
+  background-color: green;
+}
+table#CSS3MODULES td.crec {
+  background-color: #1aff1a;
+}
+table#CSS3MODULES td.lcwd {
+  background-color: #ff9999;
+}
+table#CSS3MODULES td.wd {
+  background-color: red;
+}
+
+table#HTML5Elements td, table#HTML5Elements th:first-child {
+  padding: 0.4ex;
+  text-align: left;
+}
+table#HTML5Elements img {
+  width: 16px;
+  height: 16px;
+}
+table#HTML5Elements span {
+  font-weight: bold;
+}
+table#HTML5Elements span:after {
+  content: url("../img/HTML5_Badge_32.png");
+}
+
+code {
+  color: #134460;
+}
+
+p.note {
+  color: red;
+}
+
+h1 {
+  color: #134460;
+}
+
+h2 {
+  color: #369cd6;
+}
+
+h3 {
+  color: #792a08;
+}
+
+h4 {
+  color: #f16529;
+}
+
+table#CSS3properties {
+  margin: 0 auto;
+}
+
+table .property, table .HTML-Attributes {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #792a08;
+}
+
+p#transparent-bg {
+  background-color: #c86414;
+}
+p#transparent-bg:hover {
+  background-color: rgba(200, 100, 20, 0.5);
+}
+
+p#multi-columns {
+  /* standard version */
+  column-count: 3;
+  column-rule: #369cd6 inset 1ex;
+  column-gap: 4ex;
+  /* webkit version */
+  -webkit-column-count: 3;
+  -webkit-column-rule: #369cd6 inset 1ex;
+  -webkit-column-gap: 4ex;
+  /* firefox version */
+  -moz-column-count: 3;
+  -moz-column-rule: #369cd6 inset 1ex;
+  -moz-column-gap: 4ex;
+}
+
+/* comments form */
+#comments textarea, #comments input, #comments label {
+  display: block;
+}
+#comments label {
+  color: #f16529;
+}
+#comments input[type="text"], #comments textarea {
+  margin-bottom: 2ex;
+}
